@@ -1,7 +1,7 @@
 body {
     background-color: #000;
     color: #fff;
-    font-family: "DM Sans", sans-serif;
+    font-family: var(--font-dm-sans)
 }
 
 .sidebar {
@@ -106,14 +106,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .library .library__content .fa-plus:hover {
+}
+
+.library .library__content .fa-plus:hover {
     color: #fff;
     background-color: rgba(24, 24, 24, 0.9)
-  }
+}
 
-.section-common {
+.section-playlist-podcast {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -127,27 +127,27 @@ body {
     border-radius: 8px;
 }
 
-.section-common .section-common__content {
+.section-playlist-podcast .section-playlist-podcast__content {
     display: flex;
     flex-direction: column;
 }
 
-.section-common__content .text {
+.section-playlist-podcast__content .text {
     padding-bottom: 14px;
     color: #fff;
 }
 
-.section-common__content .title {
+.section-playlist-podcast__content .title {
     font-weight: 700;
 }
 
-.section-common__content .subtitle {
+.section-playlist-podcast__content .subtitle {
     font-weight: 500;
     font-size: 12px;
     color: #fff;
 }
 
-.section-common__content .section-common__button {
+.section-playlist-podcast__content .section-playlist-podcast__button {
     display: flex;
     justify-content: center;
     background-color: #fff;
@@ -164,11 +164,11 @@ body {
     cursor: pointer;
 }
 
-.section-common__content .podcast-button {
+.section-playlist-podcast__content .podcast-button {
     width: 150px;
 }
 
-.section-common__content .section-common__button:hover {
+.section-playlist-podcast__content .section-playlist-podcast__button:hover {
     transform: scale(1.1);
 }
 
@@ -178,22 +178,22 @@ body {
     list-style: none;
     padding: 0;
     margin: 100px 8px 10px 8px;
-  }
-  
-  .sidebar-links ul li {
+}
+
+.sidebar-links ul li {
     margin-right: 10px;
-  }
-  
-  .sidebar-links ul li a {
+}
+
+.sidebar-links ul li a {
     color: #a7a7a7;
     font-weight: 500;
     font-size: 10px;
     text-decoration: none;
-  }
-  
-  .sidebar-links ul li a:hover {
+}
+
+.sidebar-links ul li a:hover {
     text-decoration: underline;
-  }
+}
 
 .languages .languages__button {
     background-color: transparent;
@@ -210,4 +210,52 @@ body {
 
 .languages .languages__button:hover {
     transform: scale(1.1);
+}
+
+/* FOOTER */
+
+.disclaimer-premium {
+    font-family: 'Kanit', sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #ae2896, #509bf5);
+    padding: 20px 24px 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    user-select: none;
+}
+
+.disclaimer-premium .disclaimer-premium__title {
+    font-size: 0.8125rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtitle {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.disclaimer-premium button {
+    font-family: 'Kanit', sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    text-align: center;
+    margin-top: -10px;
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.disclaimer-premium button:hover {
+    transform: scale(1.1);
+}
+
+#artistList {
+    display: none;
 }
