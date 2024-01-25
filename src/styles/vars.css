@@ -3,6 +3,12 @@
     --font-dm-sans: "DM Sans", sans-serif;
 
     /* COLORS */
+    --text-base-dark: #000;
+    --text-base-light: #fff;
+    --text-sub: #878787;
+
     --bg-icon: #131313;
     --bg-arrow-color: rgba(0, 0, 0.7);
+    --grid-gap: 24px;
+    --column-count: 5;
 }

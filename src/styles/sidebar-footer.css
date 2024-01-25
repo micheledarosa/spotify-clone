@@ -47,9 +47,6 @@ body {
     transition: color 0.5s ease;
 }
 
-.sidebar nav ul li a:hover {
-    color: #fff;
-}
 
 .library {
     background-color: #121212;
@@ -62,6 +59,7 @@ body {
     font-weight: 600;
     font-size: 14px;
     margin-top: 10px;
+    height: 66vh;
 }
 
 .library .library__content {
@@ -92,10 +90,6 @@ body {
     padding-right: 8px;
 }
 
-.library .library__button:hover {
-    color: #fff;
-}
-
 .library .library__content .fa-plus {
     margin: 12px;
     cursor: pointer;
@@ -106,11 +100,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.library .library__content .fa-plus:hover {
-    color: #fff;
-    background-color: rgba(24, 24, 24, 0.9)
 }
 
 .section-playlist-podcast {
@@ -168,10 +157,6 @@ body {
     width: 150px;
 }
 
-.section-playlist-podcast__content .section-playlist-podcast__button:hover {
-    transform: scale(1.1);
-}
-
 .sidebar-links ul {
     display: flex;
     flex-wrap: wrap;
@@ -191,10 +176,6 @@ body {
     text-decoration: none;
 }
 
-.sidebar-links ul li a:hover {
-    text-decoration: underline;
-}
-
 .languages .languages__button {
     background-color: transparent;
     border: 1px solid #878787;
@@ -208,9 +189,35 @@ body {
     padding: 8px;
 }
 
+/* HOVER SIDEBAR */
+.sidebar nav ul li a:hover {
+    color: #fff;
+}
+
+.library .library__button:hover {
+    color: #fff;
+}
+
+.library .library__content .fa-plus:hover {
+    color: #fff;
+    background-color: rgba(24, 24, 24, 0.9)
+}
+
+.section-playlist-podcast__content .section-playlist-podcast__button:hover {
+    transform: scale(1.1);
+}
+
+.sidebar-links ul li a:hover {
+    text-decoration: underline;
+}
+
 .languages .languages__button:hover {
     transform: scale(1.1);
 }
+
+/* FIM HOVER SIDEBAR */
+
+/* FIM SIDEBAR */
 
 /* FOOTER */
 
@@ -252,10 +259,16 @@ body {
     cursor: pointer;
 }
 
+#artistList {
+    display: none;
+}
+
+/* HOVER FOOTER */
+
 .disclaimer-premium button:hover {
     transform: scale(1.1);
 }
 
-#artistList {
-    display: none;
-}
+/* FIM HOVER FOOTER */
+
+/* FIM FOOTER */
