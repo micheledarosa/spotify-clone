@@ -8,7 +8,7 @@ O deploy foi realizado na [Netlify](https://www.netlify.com), uma plataforma de 
 
 Clique no link abaixo para ver o site ⬇️
 
-<img src="./src/assets/icons/favicon.png" height=13 /> <a href="https://micheledarosa-spotify.netlify.app/" target="_blank">Site do projeto</a> 
+<img src="./src/assets/icons/favicon.png" height=13 /> [Site do projeto](https://micheledarosa-spotify.netlify.app/) 
 
 <a href="https://imgur.com/D3aFqla"><img src="https://i.imgur.com/D3aFqla.gif" title="source: imgur.com" /></a>
 
