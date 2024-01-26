@@ -1,5 +1,14 @@
 @media screen and (max-width: 1015px) {
-    .offer__list-item{
+    .offer__list-item {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .header__navigation {
+        width: 650px;
+    }
+
+    .header__search {
+        width: 200px;
+        margin-right: 20px;
     }
 }

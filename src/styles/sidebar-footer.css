@@ -1,7 +1,8 @@
 body {
     background-color: #000;
     color: #fff;
-    font-family: var(--font-dm-sans)
+    font-family: var(--font-dm-sans);
+    overflow-y: hidden;
 }
 
 .sidebar {

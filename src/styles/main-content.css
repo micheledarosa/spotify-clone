@@ -1,4 +1,7 @@
 /* HEADER */
+body {
+    overflow-y: hidden;
+}
 
 .main-container {
     max-width: 80vw;
