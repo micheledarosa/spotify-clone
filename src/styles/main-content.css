@@ -370,10 +370,10 @@
     border-radius: 100%;
     font-size: 14px;
     opacity: 0;
-    transition: all ease 0.4s;
+    transition: all ease-in 0.3s;
 }
 
-.artist-card:hover .play .fa-play:hover {
+.artist-card:hover .play .fa-play {
     opacity: 1;
     transform: translateY(-20px);
 }
