@@ -125,7 +125,7 @@ body {
 /* PLAYLIST */
 
 .playlist-container {
-    height: 73vh;
+    height: 75vh;
     padding-top: 16px;
     margin: 12px;
     border-radius: 10px;
@@ -138,15 +138,20 @@ body {
 
 .playlist #greeting {
     color: var(--text-base-light);
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
-    margin-bottom: 48px;
+    margin-bottom: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.playlist #greeting:hover {
+    color: #fce650;
 }
 
 .playlist .session {
     color: var(--text-base-light);
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /* SCROLL */
@@ -185,10 +190,10 @@ body {
 
 .offer__list-item {
     display: grid;
-    justify-content: center;
+    justify-content: space-between;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 16px;
-    gap: 16px;
+    gap: 30px;
     margin-bottom: 16px;
 }
 
